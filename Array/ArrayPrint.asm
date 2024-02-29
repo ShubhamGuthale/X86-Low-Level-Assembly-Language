@@ -13,7 +13,7 @@ lp:
 	mul ecx 
 	add ebx,eax 
 	cmp dword[ebx],-1
-	jz endof
+	jz end
 	pusha
 	push dword[ebx]
 	push msg
@@ -22,5 +22,5 @@ lp:
 	popa
 	inc ecx
 	jmp lp
-endof:
+end:
 	ret
