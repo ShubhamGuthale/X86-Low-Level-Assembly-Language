@@ -12,7 +12,6 @@ main:
 	mov ecx,[ebp+8]
 	cmp ecx,2
 	jb end
-
 	xor edx,edx
 lp:	
 	push edx
@@ -29,23 +28,18 @@ lp:
 	inc edx
 	cmp edx,5
 	jb lp
-
 	jmp terminate
-
 end:
 	push msg
 	call printf
 	add esp,4
-
 	mov esi,[ebp+12]
 	mov edx,dword[esi+4]
 	push edx
 	call atoi
 	add esp,4
-
 	mov edx,10
 	add edx,eax
-
 terminate:
 	mov esp,ebp
 	pop ebp
