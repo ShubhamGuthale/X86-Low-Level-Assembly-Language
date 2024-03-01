@@ -1,3 +1,11 @@
+;153 = (1*1*1)+(5*5*5)+(3*3*3)  
+;where:  
+;(1*1*1)=1  
+;(5*5*5)=125  
+;(3*3*3)=27  
+;So:  
+;1+125+27=153 
+
 section .data
 	num dd 153
 	msg1 db "number is amstrong number",10,0
