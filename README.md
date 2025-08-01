@@ -2,7 +2,18 @@
 
 Low Level Assembly Programs Using NASM and GCC
 
-# Instruction
+## 📦 Technologies Used
+
+| Tool   | Purpose                                     |
+|--------|---------------------------------------------|
+| NASM   | Assembling `.asm` files into object code    |
+| GCC    | Linking and creating executables            |
+| GDB    | Debugging programs at the instruction level |
+
+---
+
+
+## Instruction
 
 1. To run these programs your system must have installed NASM and GCC.
 
