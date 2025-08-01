@@ -1,6 +1,6 @@
 # X86-Low-Assembly-Language
 
-Low Level Assembly Programs Using NASM and GCC
+Low Level Assembly Programs Using the **x86 architecture**, using **NASM (Netwide Assembler)** and **GCC**.
 
 ## 📦 Technologies Used
 
